@@ -1,0 +1,24 @@
+.EmptyMessageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+.EmptyMessageContainer > * {
+  margin-bottom: 10px;
+}
+.EmptyMessageContainer button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 2rem;
+  border: none;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.EmptyMessageContainer button:hover {
+  transition: 0.2s transform ease-in-out;
+  transform: scale(1.1);
+}
+.EmptyMessageContainer *.MuiSvgIcon-root {
+  font-size: 100px;
+}

@@ -1,0 +1,50 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  color: white;
+  height: 7vh;
+  background-color: #282828;
+  padding: 20px;
+}
+
+.footer__left,
+.footer__right,
+.footer__center {
+  flex: 0.4;
+  padding: 0 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+}
+.footer__right {
+  flex: 0.3;
+  padding: 0 50px;
+}
+.footer__right *.MuiSlider-root {
+  color: green;
+}
+
+.footer__left {
+  flex: 0.3;
+  padding: 0;
+  justify-content: unset;
+}
+.footer__green {
+  color: green;
+}
+.footer__green:hover,
+.footer__icon:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+.footer__songLogo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 20px;
+}

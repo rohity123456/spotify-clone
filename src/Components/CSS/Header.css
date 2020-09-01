@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.header__black {
+  background-color: black;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 200px;
+  height: 0;
+  transition: height 0.1s ease-in-out;
+}
+.header__black_visible {
+  height: 80px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background-color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  padding: 10px;
+  width: 40%;
+  z-index: 1;
+}
+.header__left input {
+  border: none;
+  width: 100%;
+}
+.header__left input:focus {
+  outline: none;
+}
+.header__right {
+  display: flex;
+  position: fixed;
+  right: 20px;
+  z-index: 1;
+  align-items: center;
+}
+.header__right h4 {
+  margin-left: 10px;
+  color: #fff;
+}
